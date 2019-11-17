@@ -8,7 +8,7 @@ class Application
         
         t = Time.now
         # binding.pry
-        puts t
+        # puts t
         if t.hour >= 00 && t.hour<12
             resp.write greet_1
         else 
